@@ -20,11 +20,11 @@
 img[alt~="coffeebackground"] {
   display: block;
   margin: auto;
-  padding-top: 1%;
+  border: 5px solid white;
 }
 .WelcomeText {
   text-align: center;
-  font-size: 75px;
+  font-size: 95px;
   font-family: "Courgette", cursive;
   font-weight: 400;
   font-style: normal;
@@ -43,12 +43,12 @@ img[alt~="coffeebackground"] {
 }
 .aboutus {
   background-color: #2a1a1f;
-  color: white;
+  color: #cdaca1;
   margin-left: 1%;
   padding: 5%;
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
 }
 .slideshow-container {
   max-width: 250px;
@@ -129,6 +129,7 @@ footer {
   text-align: end;
   font-size: x-large;
   background-color: #006c67;
+  padding-right: 1%;
   color: #d7fdf0;
   font-family: "Courgette", cursive;
   font-weight: 400;
