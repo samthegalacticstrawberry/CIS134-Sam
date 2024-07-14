@@ -139,7 +139,7 @@ img[alt~="coffeebackground"] {
   text-align: center;
   align-content: center;
   float: inline-start;
-  width: 16%;
+  width: 15%;
   padding: 5px;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
@@ -151,6 +151,16 @@ img[alt~="coffeebackground"] {
   display: table;
 }
 .productrow2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.productrow3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.productrow4::after {
   content: "";
   clear: both;
   display: table;
