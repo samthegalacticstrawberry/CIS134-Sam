@@ -3,6 +3,16 @@
   margin: 0%;
   background-color: #cdaca1;
 }
+.ContactBody {
+  padding: 0%;
+  margin: 0%;
+  background-color: #cdaca1;
+}
+.ProductBody {
+  padding: 0%;
+  margin: 0%;
+  background-color: #cdaca1;
+}
 .topnav1 {
   font-size: x-large;
   font-family: "Courgette", cursive;
@@ -124,6 +134,26 @@ img[alt~="coffeebackground"] {
   to {
     opacity: 1;
   }
+}
+.column {
+  text-align: center;
+  align-content: center;
+  float: inline-start;
+  width: 16%;
+  padding: 5px;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  border: #ffffff 5px solid;
+}
+.productrow1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.productrow2::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 footer {
   text-align: end;
