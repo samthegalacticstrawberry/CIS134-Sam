@@ -1,0 +1,66 @@
+.ContactUs {
+  margin: auto;
+  background-color: #2a1a1f;
+  color: #cdaca1;
+  font-size: x-large;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  max-width: 50%;
+  padding: 15px;
+}
+img[alt~="samphoto"] {
+  border: solid #ffff 5px;
+}
+img[alt~="sethphoto"] {
+  border: solid #ffff 5px;
+}
+.ContactHeading {
+  text-align: center;
+  font-size: x-large;
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #2a1a1f;
+  margin: auto;
+}
+
+.ContactForm {
+  margin: auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #bbb;
+  width: 50%;
+}
+
+.ContactForm label {
+  display: inline-block;
+  width: 90%;
+  margin-bottom: 5px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.ContactForm input[type="text"],
+.ContactForm input[type="submit"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  justify-content: center;
+}
+
+.ContactForm input[type="submit"] {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: #000000 solid;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+}
+
+.ContactForm input[type="submit"]:hover {
+  background-color: #333333;
+}
