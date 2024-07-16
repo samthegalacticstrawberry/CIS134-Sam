@@ -8,6 +8,7 @@
   justify-content: space-evenly;
   max-width: 50%;
   padding: 15px;
+  margin-bottom: 15px;
 }
 img[alt~="samphoto"] {
   border: solid #ffff 5px;
@@ -23,6 +24,7 @@ img[alt~="sethphoto"] {
   font-style: normal;
   color: #2a1a1f;
   margin: auto;
+  text-decoration: underline;
 }
 
 .ContactForm {
@@ -32,6 +34,7 @@ img[alt~="sethphoto"] {
   border-radius: 5px;
   background-color: #bbb;
   width: 50%;
+  margin-bottom: 15px;
 }
 
 .ContactForm label {
