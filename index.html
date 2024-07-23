@@ -24,14 +24,9 @@
         height="75"
       />
       <h1>Fresh Brew Coffee</h1>
-      <!-- Reformat nav bar -->
-      <nav>
-        <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/html/product.html">Products</a></li>
-          <li><a href="/html/contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <a href="index.html">Home</a>
+      <a href="/html/product.html">Products</a>
+      <a href="/html/contact.html">Contact</a>
     </div>
     <img
       src="/images/coffeebackground.png"
@@ -62,29 +57,29 @@
           <div class="text">Iced Coffee</div>
         </div>
 
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="/images/icedlatte.jpg" style="width: 100%" />
-          <div class="text">Iced Latte</div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="/images/icedlatte.jpg" style="width: 100%" />
+                    <div class="text">Iced Latte</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="/images/IcedCappuccino.jpg" style="width: 100%" />
+                    <div class="text">Iced Cappuccino</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br />
+
+            <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
         </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="/images/IcedCappuccino.jpg" style="width: 100%" />
-          <div class="text">Iced Cappuccino</div>
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br />
-
-      <div style="text-align: center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
-    </div>
-    <footer>Fresh Brew Coffee</footer>
-  </body>
+        <footer>Fresh Brew Coffee</footer>
+    </body>
 </html>
