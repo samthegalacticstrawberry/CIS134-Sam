@@ -19,12 +19,22 @@
   font-weight: 400;
   font-style: normal;
   background-color: #003844;
-  height: 50px;
+  /* height: 50px; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   color: #d7fdf0;
   text-decoration: none;
+}
+
+nav ul li{
+  display: flex;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #d7fdf0;
 }
 
 footer {
@@ -36,4 +46,14 @@ footer {
   font-family: "Courgette", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  nav ul{
+    display: flex;
+  }
+  nav ul li a{
+    margin: 5px
+  }
 }
