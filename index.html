@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/index.css" />
     <link rel="icon" type="image/x-icon" href="/images/coffeeicon.webp" />
+    
+    <!-- Import boot strap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <script src="/js/java.js" defer></script>
     <link
       rel="stylesheet"
@@ -20,25 +26,25 @@
     <title>Fresh Brew Coffee</title>
   </head>
   <body class="HomeBody">
-    <div class="topnav1">
+    <!--New Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+      <a class="navbar-brand logo" href="#">Fresh Brew Coffee</a>
       <img
-        src="/images/coffeelogo.png"
-        alt="coffee logo"
-        width="75"
-        height="75"
-      />
-      <h1>Fresh Brew Coffee</h1>
-      <div class="topnav">
-        <a href="/index.html" class="active"> Home</a>
-        <div id="myLinks">
-          <a href="/html/product.html">Products</a>
-          <a href="/html/contact.html">Contact</a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+            src="/images/coffeelogo.png"
+            alt="coffee logo"
+            width="75"
+            height="75"
+          />
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="Product.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="Contact.html">About</a></li>
+          </ul>
       </div>
-    </div>
+    </nav>
     <img
       src="/images/coffeebackground.png"
       alt="coffeebackground"
