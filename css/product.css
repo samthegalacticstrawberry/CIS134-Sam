@@ -23,10 +23,11 @@ tr:nth-child(odd) {
 }
 .TableBorder {
   border: 5px solid #2a1a1f;
-  background-color: #2a1a1f;
+  background-color: #8a5a44;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+  padding: 5px;
 }
 
 #product-grid {

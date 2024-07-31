@@ -22,6 +22,14 @@ img[alt~="coffeebackground"] {
 * {
   box-sizing: border-box;
 }
+/* Mobile */
+@media (max-width: 767px) {
+  .homecontainer{
+    display: flex;
+    flex-direction:column;
+    padding: 5%;
+  }
+}
 .aboutus {
   background-color: #2a1a1f;
   color: #cdaca1;
