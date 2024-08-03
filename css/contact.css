@@ -27,7 +27,14 @@ img[alt~="sethphoto"] {
   margin: auto;
   text-decoration: underline;
 }
-
+@media (max-width: 767px) {
+  .ContactUs{
+    max-width: 75%;
+  }
+  .ContactForm{
+    max-width: 75%;
+  }
+}
 .ContactForm {
   margin: auto;
   padding: 15px;
