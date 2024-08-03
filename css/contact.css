@@ -28,6 +28,10 @@ img[alt~="sethphoto"] {
   text-decoration: underline;
 }
 @media (max-width: 767px) {
+  .ContactBody{
+    justify-content: center;
+    text-align: center;
+  }
   .ContactUs{
     max-width: 75%;
   }
